@@ -18,7 +18,7 @@ createApp({
         ExampleComponent1,
         ExampleComponent2
     }
-}).use(lamejs,AudioRecorder).mount('#app')
+}).use(lame,AudioRecorder).mount('#app')
 // createApp(AudioRecorder).mount()
 // createApp(App).mount("#app")
 // createApp(ExampleComponent1).mount("#root-component-1")
