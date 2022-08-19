@@ -1,9 +1,6 @@
 <template>
     <div>
-        <audio-recorder
-            upload-url="http://127.0.0.1:8000"
-            :attempts="3"
-            :time="2"></audio-recorder>
+       <h2>Component 2</h2>
     </div>
 </template>
 <script>
