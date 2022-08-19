@@ -1,6 +1,8 @@
 import './bootstrap';
 
+
 import '../sass/app.scss'
+import lame from 'lamejs';
 
 
 import {createApp} from 'vue'
