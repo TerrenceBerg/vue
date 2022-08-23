@@ -1,8 +1,8 @@
 
 
 <template>
-    <tapir-widget :time="2" backendEndpoint=""
-                  buttonColor="green"/>
+    <tapir-widget :time="2" backendEndpoint="https://team976.com/store_audio"
+                  buttonColor="green" />
 </template>
 
 <script>

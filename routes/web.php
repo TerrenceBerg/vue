@@ -20,3 +20,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::post('/store_audio', [App\Http\Controllers\HomeController::class, 'store_audio'])->name('store_audio');
