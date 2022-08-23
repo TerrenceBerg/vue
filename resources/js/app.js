@@ -1,4 +1,3 @@
-require('./bootstrap')
 
 import { createApp } from 'vue'
 import HelloWorld from '../js/Components/ExampleComponent1'
