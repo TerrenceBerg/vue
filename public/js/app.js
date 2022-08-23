@@ -23173,7 +23173,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_tapir_widget, {
     time: 2,
-    backendEndpoint: "https://your-endpoint.com/.netlify/functions/audio-message",
+    backendEndpoint: "",
     buttonColor: "green"
   });
 }
