@@ -1,5 +1,19 @@
+
+
 <template>
-    <div>
-        I'm an example component 1.
-    </div>
+    <tapir-widget :time="2" backendEndpoint="https://your-endpoint.com/.netlify/functions/audio-message"
+                  buttonColor="green"/>
 </template>
+
+<script>
+import TapirWidget from 'vue-audio-tapir';
+import 'vue-audio-tapir/dist/vue-audio-tapir.css';
+
+export default {
+    name: 'App',
+    components: {
+        TapirWidget,
+    }
+}
+</script>
+
